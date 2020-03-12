@@ -1,0 +1,194 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTA: Agregue el siguiente <META> elemento a su página <HEAD>.  Si es   -->
+<!--  preciso, modifique el parámetro charset para especificar el conjunto    -->
+<!--  de caracteres de su página HTML.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTA: Agregue el siguiente <FORM> elemento a su página.                 -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://sytesa-crm--DevBebbia.cs41.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+<input type=hidden name="orgid" value="00D550000006xEA">
+<input type=hidden name="retURL" value="http://rotoplas/gracias">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTA: Estos campos son elementos de depuración opcionales. Elimine      -->
+<!--  los comentarios de estas líneas si desea realizar una prueba en el      -->
+<!--  modo de depuración.                                                     -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="maquiroga@grupoassa.com">                                        -->
+<!--  En la sección de picklist no se pueden insertar espacios                -->
+<!--  ----------------------------------------------------------------------  -->
+
+ID del Cliente/Cuenta:<input  id="00N55000003mwzK" maxlength="50" name="00N55000003mwzK" size="20" type="text" /><br>
+
+Nombre de Cliente/Cuenta:<input  id="00N55000003mwzP" maxlength="50" name="00N55000003mwzP" size="20" type="text" /><br>
+
+<label for="name">Nombre del contacto</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+
+<label for="phone">Teléfono</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+Email:<input  id="00N55000003mpKo" maxlength="80" name="00N55000003mpKo" size="20" type="text" /><br>
+
+Motivo de la Queja:<select  id="00N55000003mpKt" name="00N55000003mpKt" title="Motivo de la Queja">
+
+<option value="">--Ninguno--</option>
+
+<option value="Atraso en entrega por falta de producto">Atraso en entrega por falta de producto</option>
+
+<option value="Captura de domicilio equivocado">Captura de domicilio equivocado</option>
+
+<option value="Consolidación de ruta">Consolidación de ruta</option>
+
+<option value="Demora en recepción">Demora en recepción</option>
+
+<option value="Dictamen">Dictamen</option>
+
+<option value="Domicilio equivocado">Domicilio equivocado</option>
+
+<option value="Entrega de producto erroneo">Entrega de producto erroneo</option>
+
+<option value="Entrega generada en SAP sin factura">Entrega generada en SAP sin factura</option>
+
+<option value="Error en captura de pedido">Error en captura de pedido</option>
+
+<option value="Error en OC">Error en OC</option>
+
+<option value="Facturación sin existencia">Facturación sin existencia</option>
+
+<option value="Falta de seguimiento  a petición de cliente">Falta de seguimiento  a petición de cliente</option>
+
+<option value="Faltante en caja cerrada">Faltante en caja cerrada</option>
+
+<option value="Faltante en entrega">Faltante en entrega</option>
+
+<option value="Inconformidad por dictamen en planta">Inconformidad por dictamen en planta</option>
+
+<option value="Incumplimiento en oferta de servicio">Incumplimiento en oferta de servicio</option>
+
+<option value="Información erronea">Información erronea</option>
+
+<option value="Mala experiencia en servicio post venta">Mala experiencia en servicio post venta</option>
+
+<option value="No enviar documentación">No enviar documentación</option>
+
+<option value="No respetar la oferta de servicio">No respetar la oferta de servicio</option>
+
+<option value="No respetar la oferta de servicio interna">No respetar la oferta de servicio interna</option>
+
+<option value="Oferta de servicio">Oferta de servicio</option>
+
+<option value="Pedido mal solicitado">Pedido mal solicitado</option>
+
+<option value="Producto dañado">Producto dañado</option>
+
+<option value="Producto mal solicitado">Producto mal solicitado</option>
+
+<option value="Producto mal terminado">Producto mal terminado</option>
+
+<option value="Producto no coincide con ficha tecnica">Producto no coincide con ficha tecnica</option>
+
+<option value="Queja de servicio">Queja de servicio</option>
+
+<option value="Queja de servicio recibido">Queja de servicio recibido</option>
+
+<option value="RefacturacIón">RefacturacIón</option>
+
+</select><br>
+
+Acción solicitada:<select  id="00N55000003mwzt" name="00N55000003mwzt" title="Acción solicitada">
+
+<option value="">--Ninguno--</option>
+
+<option value="Entrega de material">Entrega de material</option>
+
+<option value="Devolución">Devolución</option>
+
+<option value="Llamada de atención / Feedback en notas de cierre">Llamada de atención / Feedback en notas de cierre</option>
+
+<option value="Atender solicitud">Atender solicitud</option>
+
+<option value="Agilizar recepción">Agilizar recepción</option>
+
+<option value="Re facturar">Re facturar</option>
+
+<option value="Dar atención de acuerdo a oferta de servicio">Dar atención de acuerdo a oferta de servicio</option>
+
+<option value="Fecha de disponibilIDad">Fecha de disponibilIDad</option>
+
+<option value="Brindar fecha eta">Brindar fecha eta</option>
+
+<option value="Revalorar dictamen">Revalorar dictamen</option>
+
+<option value="Brindar atención">Brindar atención</option>
+
+</select><br>
+
+Planta:<select  id="00N55000003mpKy" name="00N55000003mpKy" title="Planta">
+
+<option value="">--Ninguno--</option>
+
+<option value="ANAHUAC">ANAHUAC</option>
+
+<option value="GOLFO">GOLFO</option>
+
+<option value="GUADALAJARA">GUADALAJARA</option>
+
+<option value="LEON">LEON</option>
+
+<option value="MONTERREY">MONTERREY</option>
+
+<option value="PACIFICO">PACIFICO</option>
+
+<option value="SUR">SUR</option>
+
+<option value="TUX">TUX</option>
+
+<option value="TUXTLA">TUXTLA</option>
+
+<option value="COSTA RICA">COSTA RICA</option>
+
+<option value="EL SALVADOR">EL SALVADOR</option>
+
+<option value="GUATEMALA">GUATEMALA</option>
+
+<option value="HONDURAS">HONDURAS</option>
+
+<option value="NICARAGUA">NICARAGUA</option>
+
+</select><br>
+
+Tipo de Documento:<select  id="00N55000003mq19" name="00N55000003mq19" title="Tipo de Documento">
+
+<option value="">--Ninguno--</option>
+
+<option value="Folio de Queja">Folio de Queja</option>
+
+<option value="Folio de Servicio Técnico">Folio de Servicio Técnico</option>
+
+<option value="No. De Devolución">No. De Devolución</option>
+
+<option value="No. De Factura">No. De Factura</option>
+
+<option value="No. De Nota de Crédito">No. De Nota de Crédito</option>
+
+<option value="No. De Pedido">No. De Pedido</option>
+
+<option value="Orden Compra sin captura">Orden Compra sin captura</option>
+
+</select><br>
+
+No. de documento:<input  id="00N55000003mpLD" name="00N55000003mpLD" size="20" type="text" /><br>
+
+Comentarios:<textarea  id="00N55000003mpLI" name="00N55000003mpLI" rows="5" type="text" wrap="soft"></textarea><br>
+
+<input type="hidden"  id="external" name="external" value="1" /><br>
+
+<input type="submit" name="submit">
+
+</form>
